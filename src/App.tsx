@@ -1,14 +1,14 @@
-// import JSXIndexPage from './001_jsx/index'
-// import IfOrForIndexPage from './002_if_or_for/index'
-// import EventBindIndexPage from './003_event_bind/index'
-// import StateIndexPage from './004_state/index'
-// import ButtonComponent from './005_component/button'
-// import Button2Component from './005_component/button2'
-// import ComponentParam from './006_component_param'
-// import UseEffectDemo from './007_useEffect'
-// import CustomHook from './008_custom_hook'
+// import JSXIndexPage from './pages/001_jsx/index'
+// import IfOrForIndexPage from './pages/002_if_or_for/index'
+// import EventBindIndexPage from './pages/003_event_bind/index'
+// import StateIndexPage from './pages/004_state/index'
+// import ButtonComponent from './pages/005_component/button'
+// import Button2Component from './pages/005_component/button2'
+// import ComponentParam from './pages/006_component_param'
+// import UseEffectDemo from './pages/007_useEffect'
+// import CustomHook from './pages/008_custom_hook'
 
-import Counter from "./010_react_生命周期方法"
+import Counter from "./pages/010_react_生命周期方法"
 function App() {
   return (
     <div>
