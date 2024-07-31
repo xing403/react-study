@@ -20,7 +20,7 @@ function App() {
   const route = useRoutes(routes)
 
   return (
-    <div>
+    <>
       {route}
       {/* <JSXIndexPage />
       <IfOrForIndexPage />
@@ -43,8 +43,8 @@ function App() {
       {/* <ComponentUIDemo /> */}
 
       {/* <CustomUnoCSSDemo /> */}
-      <Outlet />
-    </div>
+
+    </>
   )
 }
 

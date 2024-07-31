@@ -1,4 +1,5 @@
 import AutoImportDemo from "../pages/015_auto_import";
+import Login from "../pages/016_react_redux/Login";
 
 /**
  * React 路由 web 使用 react-router-dom 
@@ -66,4 +67,10 @@ export default [{
     icon: 'icon-auto-import',
     order: 1,
   },
+}, {
+  path: '/login',
+  element: <Login />,
+}, {
+  path: '/',
+  element: <Navigate to='/login' />,
 }]
