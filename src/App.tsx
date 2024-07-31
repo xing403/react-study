@@ -10,7 +10,8 @@
 
 // import Counter from "./pages/010_react_生命周期方法"
 // import RouterDemo from './pages/011_react_router/Layout'
-import InlayPattern from "./pages/012_useRoutes/InlayPattern"
+// import InlayPattern from "./pages/012_useRoutes/InlayPattern"
+import ComponentUIDemo from "./pages/013_component_ui"
 function App() {
   return (
     <div>
@@ -30,7 +31,9 @@ function App() {
       <Counter /> 
       <RouterDemo /> */}
       
-      <InlayPattern />
+      {/* <InlayPattern /> */}
+
+      <ComponentUIDemo />
     </div>
   )
 }
