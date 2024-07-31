@@ -1,3 +1,4 @@
+import routes from './router/index'
 // import JSXIndexPage from './pages/001_jsx/index'
 // import IfOrForIndexPage from './pages/002_if_or_for/index'
 // import EventBindIndexPage from './pages/003_event_bind/index'
@@ -12,10 +13,15 @@
 // import RouterDemo from './pages/011_react_router/Layout'
 // import InlayPattern from "./pages/012_useRoutes/InlayPattern"
 // import ComponentUIDemo from "./pages/013_component_ui"
-import CustomUnoCSSDemo from "./pages/014_unocss"
+// import CustomUnoCSSDemo from "./pages/014_unocss"
+
+
 function App() {
+  const route = useRoutes(routes)
+
   return (
     <div>
+      {route}
       {/* <JSXIndexPage />
       <IfOrForIndexPage />
       <EventBindIndexPage />
@@ -31,12 +37,13 @@ function App() {
       <CustomHook />
       <Counter /> 
       <RouterDemo /> */}
-      
+
       {/* <InlayPattern /> */}
 
       {/* <ComponentUIDemo /> */}
 
-      <CustomUnoCSSDemo />
+      {/* <CustomUnoCSSDemo /> */}
+      <Outlet />
     </div>
   )
 }

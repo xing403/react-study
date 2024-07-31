@@ -1,3 +1,5 @@
+import AutoImportDemo from "../pages/015_auto_import";
+
 /**
  * React 路由 web 使用 react-router-dom 
  *    v5 使用 <Route to="/path" component={About} />
@@ -56,3 +58,12 @@
  *    useOutlet() => 获取当前路由的 outlet
  *    useResolvedPath() => 获取路由的 pathname 和 search
  */
+export default [{
+  path: '/015_auto_import/:id',
+  element: <AutoImportDemo />,
+  meta: {
+    title: 'auto-import demo',
+    icon: 'icon-auto-import',
+    order: 1,
+  },
+}]
