@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx' // react 根节点组件
 import './index.css' //  全局样式
+import 'virtual:uno.css'
 
 import { BrowserRouter } from 'react-router-dom'
 
